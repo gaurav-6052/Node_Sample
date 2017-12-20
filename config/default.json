@@ -1,0 +1,49 @@
+{
+    "serverPort": 3000,
+    "mongoUrl": "mongodb://localhost:27017/sample",
+    "apiKeys": {
+        "web": "c112f68c22a4b6ff1240e072f64677d155b3d05488bcf5c5194b88aef04ea765"
+    },
+    "tokenExpireIn": "10 days",
+    "verificationExpireIn": "7 days",
+    
+    "files": {
+        "maxSizeBytes": 5242880,
+        "mimeTypes": [
+            "image/png",
+            "image/jpeg",
+            "image/jpg"
+        ]
+    },
+      "user":{
+        "userEmail":"user@user.com"
+    },
+    "log": {
+        "logEmailId": "log@clicktocall.com"
+    },
+    "socket":{
+        "baseurl":"https://click2collectservices.herokuapp.com"
+    },
+    "employee":[{
+    "employee":"Michael B.",
+    "avgPerTime":"1:32",
+     "orderCompleted":"0:01:36"
+},
+{
+    "employee":"Jessica P.",
+    "avgPerTime":"1:50",
+     "orderCompleted":"0:01:50"
+},{
+    "employee":"Ted C",
+    "avgPerTime":"1:56",
+     "orderCompleted":"0:02:09"
+},
+{
+    "employee":"James",
+    "avgPerTime":"2:48",
+     "orderCompleted":"0:02:40"
+}]
+
+    
+    
+}
